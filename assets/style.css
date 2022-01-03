@@ -1,0 +1,323 @@
+/* CSS Variables that are used in Rachel Marron Porfolio */
+
+/* Universal Selectors */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Navigation Selectors */ 
+
+.navigation {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray; 
+    color: white; 
+}
+
+.navigation ul {
+    display: flex; 
+    text-decoration: none;
+    list-style: none;
+    gap: 1rem; 
+    margin: 15px;
+}
+
+.navigation ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+.navigation ul li a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.navigation ul li a:hover {
+    color: #b50c00; 
+}
+
+/* Header Selectors */ 
+
+#home {
+    display: flex; 
+    flex-direction: column; 
+    color: black;
+    height: 300px;
+    justify-content: center; 
+    align-items: center;
+}
+
+#home::before {
+    content: "" ; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('https://thatoregonlife.com/wp-content/uploads/2016/07/15754884422_0f51e2c2ff_h.jpg') no-repeat center center/cover;
+    height: 355px;
+    width: 100%;
+    z-index: -1;
+    opacity: .85;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px; 
+    color: black; 
+    text-align: center; 
+}
+
+/* Prpjects Selectors */ 
+
+#projects {
+    display: flex; 
+    flex-direction: column; 
+    border: 13px solid darkslategray;
+    background-color: lightgray; 
+}
+
+#projects h1 {
+    margin: 15px; 
+}
+
+.cards {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards img {
+    width: 350px; 
+    height: 300px; 
+    padding: 5px;
+    margin: 7px;
+    justify-content: center; 
+}
+
+.cards img:hover {
+    background-color: #b50c00; 
+    cursor: pointer;
+}
+
+/* Education Selectors */ 
+
+#education {
+    display: flex; 
+    flex-direction: column; 
+    border: 13px solid darkslategrey;
+    background-color: lightgray; 
+}
+
+#education h1 {
+    margin: 15px; 
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: auto auto; 
+    padding-left: 30px;
+}
+
+.box {
+    height: 150px; 
+    width: 600px; 
+    background-color: #737373;  
+    color: white;
+    margin: 15px;
+    border: 5px solid whitesmoke; 
+    border-radius: 10px;
+    transition: all 100ms linear; 
+}
+
+.box:hover {
+  box-shadow: inset 0px 0px 8px #fbff19, 0 0 15px #fbff19; 
+}
+
+.box h3 {
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 18px; 
+    text-align: center; 
+    padding-top: 5px; 
+}
+
+.box p {
+    color: white;  
+    font-family: 'Times New Roman', Times, serif; 
+    margin: 20px; 
+}
+
+/* About Me Selectors */ 
+
+#about {
+    display: flex; 
+    flex-direction: column; 
+    background-color: lightgray; 
+    border: 13px solid darkslategrey;
+}
+
+#about h1 {
+    margin: 15px; 
+}
+
+.about {
+    display: flex;
+}
+
+.about img {
+    height: 350px; 
+    width: 450px; 
+    justify-content: center;
+    align-content: center;
+    margin: 25px; 
+    border: 7px ridge #b50c00; 
+    padding: 5px; 
+}
+
+.name {
+    padding: 15px; 
+}
+
+.name h2 {
+    font-size: 24px; 
+}
+
+.me {
+    font-size: 42px; 
+    font-family: 'Source Code Pro', monospace; 
+}
+
+
+.me:hover {
+    color: #b50c00; 
+}
+
+/* Contact Form Selectors */ 
+
+#get-in-touch {
+    display: flex; 
+    flex-direction: column; 
+    background-color: lightgray; 
+    border: 13px solid darkslategrey;
+}
+
+.contact {
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+	font-weight: 400;
+    margin: 15px; 
+    border: 15px solid #fbff19; 
+}
+
+.contact:focus {
+	outline: 0;
+}
+
+body {
+	background-color: lightgray; 
+}
+
+h3 {
+	text-align: center;
+    font-size: 22px; 
+    font-weight: bold; 
+}
+
+p {
+    font-size: 18px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.container {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: #E3F2FD;
+	border-radius: 4px;
+}
+
+label {
+	font-size: 1em;
+	margin-left: 12px;
+    font-weight: bold; 
+}
+
+/* Form Fill Selectors */ 
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+input[type=submit] {
+	background: #fbff19;
+    color: black; 
+	margin: 0 auto;
+	outline: 0;
+	border: 0;
+	padding: 14px 26px;
+	border-radius: 5px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 16px; 
+    font-weight: bold; 
+}
+
+input[type=submit]:hover {
+	background: darkslategrey; 
+    cursor: pointer; 
+}
+
+.center {
+	text-align: center;
+}
+
+/* Footer Selectors */ 
+
+.footer {
+    font-size:14px; 
+    color: white;
+    height: 50px;
+    width: 100%;
+    line-height: 60px;
+    font-family: "futura", sans-serif; 
+    text-align: center;
+}
+
+/* Media - Responsiveness */ 
+
+@media screen and (max-width: 784px) {
+    .navbar ul {
+        flex-wrap: wrap; 
+    }
+
+    header {
+      width: 75%
+    }
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+
+    .box {
+        flex: 0 0 33.333%;
+        max-width: 0 0 33.333%; 
+    }
+  }
