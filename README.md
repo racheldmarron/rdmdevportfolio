@@ -11,7 +11,7 @@ The Acceptance Criteria included:
 <li>Links in the navigation lead down to applicable content on site</li>
 <li>Developers first project should be larger than the others</li>
 <li>Projects link to external examples of their work</li>
-<li>Portfolio should be responsive</li>
+<li>Portfolio should be responsive</li></ul>
 
 ## UI Of My Portfolio
 <ul>
@@ -27,7 +27,7 @@ The Acceptance Criteria included:
 ## Challenges With Acceptance Criteria 
 Unfortunately, I was not able to complete (2) of the acceptance criteria: 
 <ul><li>I was not able to make my first project larger than the others. I will work on this with my tutor this week.</li>
-<li>I was able to make the whole page responsive minus the "Education" section. I will work on this with my tutor this week.</li>
+<li>I was able to make the whole page responsive minus the "Education" section. I will work on this with my tutor this week.</li><ul>
 
 ## Publishing to GitHub
 <ul>
