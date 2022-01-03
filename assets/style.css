@@ -108,14 +108,13 @@
 }
 
 .text-box {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-        color: white; 
-        background-color: darkslategray; 
-        padding-left: 10px;
-        padding-right: 10px; 
-        justify-content: center; 
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white; 
+    background-color: darkslategray; 
+    padding-left: 10px;
+    padding-right: 10px; 
 }
 
 /* Education Selectors */ 
