@@ -205,9 +205,18 @@
     font-size: 24px; 
 }
 
+.name p {
+    font-size: 18px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    line-height: 20px; 
+    border: 6px solid #b50c00; 
+    padding: 15px; 
+    border-radius: 10px; 
+}
+
 .me {
     font-size: 50px; 
-    font-family: 'Source Code Pro', monospace; 
+    font-family: 'Source Code Pro', monospace;
 }
 
 
