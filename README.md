@@ -1,6 +1,9 @@
 # rdmdevportfolio
 Development Portfolio for Rachel Marron- Aspiring QA Engineer
 
+## Link to deployed application 
+<a href="https://racheldmarron.github.io/rdmdevportfolio/">https://racheldmarron.github.io/rdmdevportfolio/</a>
+
 ## Overview 
 I created a Portfolio webpage using advanced HTML and CSS in order to give prospective employers or colleagues an overview of myself and goals, projects that I have completed, and education.
 
