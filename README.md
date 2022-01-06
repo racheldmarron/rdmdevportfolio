@@ -37,3 +37,8 @@ Unfortunately, I was not able to complete (2) of the acceptance criteria:
   <li>I created a new repository on my GitHub account titled "rdmdevportfolio"</li>
   <li>I pulled the repository onto my computer and committed changes to GitHub as necessary</li>
 </ul>
+
+![](./assets/images/portfolio-1.png)
+![](./assets/images/portfolio-2.png)
+![](./assets/images/portfolio-3.png)
+![](./assets/images/portfolio-4.png)
