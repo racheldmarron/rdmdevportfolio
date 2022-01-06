@@ -30,13 +30,14 @@ The Acceptance Criteria included:
 ## Challenges With Acceptance Criteria 
 Unfortunately, I was not able to complete (2) of the acceptance criteria: 
 <ul><li>I was not able to make my first project larger than the others. I will work on this with my tutor this week.</li>
-<li>I was able to make the whole page responsive minus the "Education" section. I will work on this with my tutor this week.</li><ul>
+<li>I was able to make the whole page responsive minus the "Education" section. I will work on this with my tutor this week.</li></ul>
 
 ## Publishing to GitHub
 <ul>
   <li>I created a new repository on my GitHub account titled "rdmdevportfolio"</li>
   <li>I pulled the repository onto my computer and committed changes to GitHub as necessary</li>
 </ul>
+<br><br> 
 
 ![](./assets/images/portfolio-1.png)
 ![](./assets/images/portfolio-2.png)
