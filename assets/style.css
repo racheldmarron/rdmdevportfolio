@@ -131,21 +131,21 @@
 }
 
 .columns {
-    display: grid;
-    grid-template-columns: auto auto; 
-    padding-left: 30px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
 }
 
-.box {
-    height: 150px; 
-    width: 600px; 
+.container-wrap {
+    min-height: 150px;
     background-color: #737373;  
     color: white;
-    margin: 15px;
+    margin: 5px;
     border: 5px solid whitesmoke; 
     border-radius: 10px;
     transition: all 100ms linear; 
 }
+
 
 .box:hover {
   box-shadow: inset 0px 0px 8px #fbff19, 0 0 15px #fbff19; 
@@ -169,8 +169,6 @@
 /* About Me Selectors */ 
 
 #about {
-    display: flex; 
-    flex-direction: column; 
     background-color: lightgray; 
     border: 13px solid darkslategrey;
 }
@@ -181,13 +179,12 @@
 
 .about {
     display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .about img {
     height: 350px; 
-    width: 400px; 
-    justify-content: center;
-    align-content: center;
     margin: 25px; 
     border: 7px ridge #b50c00; 
     padding: 5px; 
@@ -342,9 +339,13 @@ input[type=submit]:hover {
     }
 
     .box {
-        flex: 0 0 33.333%;
-        max-width: 0 0 33.333%; 
+        flex-grow: 2; 
     }
+
+    .about {
+        flex-wrap: wrap; 
+    }
+
   }
 
   /* Media - Min Width */ 
