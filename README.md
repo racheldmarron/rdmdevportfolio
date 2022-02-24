@@ -13,9 +13,10 @@ I also updated my GitHub account to include pinned repositories of my best work.
 This assigment had a user story of: AS AN employer, I WANT to view a potential employee's deployed portfolio of work samples, SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 The Acceptance Criteria included: 
 <ul><li>Portolfio contains the Developer's name, a recent photo, and links to their work, about them, and how to contact them</li>
+<li>Link to resume- added to the Nav</li>
 <li>Links in the navigation lead down to applicable content on site</li>
-<li>Developers first project should be larger than the others</li>
-<li>Projects link to external examples of their work</li>
+<li>Updated projects with relevant projects with external links</li>
+<li>Added Github and Linkedin icons with external links to my pages</li>
 <li>Portfolio should be responsive</li></ul>
 
 ## UI Of My Portfolio
@@ -28,11 +29,6 @@ The Acceptance Criteria included:
 <li>Created a contact form where prospective employers can leave their contact information. The form has auto filled my contact information for reference.</li>
 <li>Using media queries, I made the webpage responsive.</li>
   </ul>
-  
-## Challenges With Acceptance Criteria 
-Unfortunately, I was not able to complete (2) of the acceptance criteria: 
-<ul><li>I was not able to make my first project larger than the others. I will work on this with my tutor this week.</li>
-<li>I was able to make the whole page responsive minus the "Education" section. I will work on this with my tutor this week.</li></ul>
 
 ## Publishing to GitHub
 <ul>
