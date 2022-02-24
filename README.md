@@ -5,7 +5,9 @@ Development Portfolio for Rachel Marron- Aspiring QA Engineer
 <a href="https://racheldmarron.github.io/rdmdevportfolio/">https://racheldmarron.github.io/rdmdevportfolio/</a>
 
 ## Overview 
-I created a Portfolio webpage using advanced HTML and CSS in order to give prospective employers or colleagues an overview of myself and goals, projects that I have completed, and education.
+I created an updated version of my Portfolio in order to showcase my projects, homework assignments, and other work. I added a "resume" to the nav which leads to an external link of my resume. I also added my github and linkedin profiles, as well as updated my education/experience section to feature more recent roles. 
+
+I also updated my GitHub account to include pinned repositories of my best work. I updated my resume to include the languages and skills I am learning in this class and updated my linked in with links to my GitHub and portfolio. 
 
 ## Summary of My Task & User Story 
 This assigment had a user story of: AS AN employer, I WANT to view a potential employee's deployed portfolio of work samples, SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
@@ -39,7 +41,7 @@ Unfortunately, I was not able to complete (2) of the acceptance criteria:
 </ul>
 <br><br> 
 
-![](./assets/images/portfolio-1.png)
 ![](./assets/images/portfolio-2.png)
+![](./assets/images/portfolio-1.png)
 ![](./assets/images/portfolio-3.png)
 ![](./assets/images/portfolio-4.png)
