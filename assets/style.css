@@ -322,6 +322,43 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+/* Icon Selectors */ 
+.fa {
+    display: flex; 
+    position: relative; 
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    justify-content: center; 
+    text-decoration: none;
+    border-radius: 50%; 
+  } 
+ 
+  #img-logo {
+    object-fit: fill;
+  }
+
+  .fa:hover {
+    opacity: .7;
+  }
+/* 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  } */
+
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-github {
+      background: black;
+      color: white; 
+  } 
+
 /* Media - Max Width */ 
 
 @media screen and (max-width: 784px) {
