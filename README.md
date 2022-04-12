@@ -1,10 +1,12 @@
 # rdmdevportfolio
-Development Portfolio for Rachel Marron- Aspiring QA Engineer
+Development Portfolio for Rachel Marron- Product Manager & QA Engineer
 
 ## Link to deployed application 
 <a href="https://racheldmarron.github.io/rdmdevportfolio/">https://racheldmarron.github.io/rdmdevportfolio/</a>
 
 ## Overview 
+** This portfolio was last updated on 03/11/2022 to showcase new projects. The portfolio also features an updated resume and LinkedIn profile. 
+
 I created an updated version of my Portfolio in order to showcase my projects, homework assignments, and other work. I added a "resume" to the nav which leads to an external link of my resume. I also added my github and linkedin profiles, as well as updated my education/experience section to feature more recent roles. 
 
 I also updated my GitHub account to include pinned repositories of my best work. I updated my resume to include the languages and skills I am learning in this class and updated my linked in with links to my GitHub and portfolio. 
