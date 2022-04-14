@@ -215,12 +215,13 @@
 .me {
     font-size: 50px; 
     font-family: 'Source Code Pro', monospace;
-}
-
-
-.me:hover {
     color: #b50c00; 
 }
+
+
+/* .me:hover {
+    color: #b50c00; 
+} */
 
 /* Contact Form Selectors */ 
 
@@ -317,13 +318,14 @@ input[type=submit]:hover {
 /* Footer Selectors */ 
 
 .footer {
-    font-size:14px; 
-    color: white;
-    height: 50px;
+    font-size:10px; 
+    color: rgb(212, 212, 212);
+    height: 20px;
     width: 100%;
-    line-height: 60px;
+    line-height: 20px;
     font-family: "futura", sans-serif; 
     text-align: center;
+    background: darkslategrey; 
 }
 
 /* Icon Selectors */ 
